@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="semantic.min.css">
+<link rel="stylesheet" type="text/css" href="materialize.min.css"  media="screen,projection"/>
+<style>
+body{
+    background-image:url(bgpic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split1{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left1 {
+  left: 0;
+  background-color: #D5DBDB  ;
+}
+
+.right1 {
+  right: 0;
+  background-color: #F8F9F9  ;
+}
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color:black;
+}
+
+.centered1 img {
+  width: 150px;
+  border-radius: 50%
+  ;
+}
+</style>
+</head>
+<body background="bgpic.jpg" style="background-size: 2300px">
+ <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+<div id="mySidenav1" class="sidenav1">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="register.html">Register</a>
+  <a href="page2.html">Special Topic</a>
+  <a href="#">Results</a>
+  <a href="#">help</a>
+</div>
+<nav>
+  <div class="nav-wrapper">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <a href="login.html" class="brand-logo center">Logo</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="sass.html">Login</a></li>
+      
+      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right"></i></a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="split1 left1">
+  <div class="centered1">
+  <!--  <img src="img_avatar2.png" alt="Avatar woman">-->
+    <h2>MINI PROJECT</h2>
+	
+
+<br>
+<br>
+
+<p STYLE="color:black">HOW MANY MEMBERS?</p>
+
+<button class="ui button">
+  <a href="miniproj3.html">3 Members</a>
+</button>
+<button class="ui button">
+  <a href="miniproj2.html">2 Members</a>
+</button>
+<button class="ui button">
+  <a href="page1.html">Home</a>
+</button>
+</form><br><br>
+
+    
+  </div>
+</div>
+
+<div class="split1 right1">
+  <div class="centered1">
+ <!--   <img src="img_avatar.png" alt="Avatar man">-->
+    <h2>SPECIAL TOPIC</h2>
+	<button class="ui button">
+  <a href="register_1.html">Register</a>
+</button>
+<button class="ui button">
+  Read More
+</button>
+<button class="ui button">
+  <a href="page1.html">Home</a>
+</button>
+    
+  </div>
+</div>
+  <script>
+function openNav() {
+  document.getElementById("mySidenav1").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav1").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>   
+</body>
+</html> 

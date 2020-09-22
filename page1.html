@@ -1,0 +1,138 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="materialize.min.css"  media="screen,projection"/>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+Special Topic
+</title>
+
+<style>
+            #p1{
+                text-align: right;
+				color: #000000
+                text-decoration-color: black;
+                text-shadow: 60;
+                font-family: Jokerman;
+                text-height: 200;
+                font-size-adjust: 300
+            } 
+            .button {
+  font: italic 40px Medium;
+  text-decoration: none;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 5px 10px 5px 10px;
+  margin-right: 10px;
+  text-align: right;
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  border-left: 4px solid black;
+}
+ul {
+    list-style-type: none;
+	text-align: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Forte;
+    font-size: 20px; 
+}
+
+li a:hover:not(.active) {
+    background-color: blue;
+}
+.active {
+    background-color: blue;
+}
+body {
+    background-image: url("bgpic.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    filter: opacity(opacity: 30%);
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+        </style>
+</head>
+
+
+
+
+
+<body background="bgpic.jpg" style="background-size: 1570px">
+ <script type="text/javascript" src="materialize.min.js"></script>
+<div id="mySidenav1" class="sidenav1">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <a href="#">Home</a>
+  <a href="splitscreen_2.html">Register</a> <!-- or "splitscreen.html"-->
+  <a href="page2.html">Special Topic</a>
+  
+  <a href="#">Results</a>
+  <a href="#">help</a>
+</div>
+
+<div style="background-image:url("image.jpg"); opacity:0.5;">
+<div style="opacity:1;">
+ //my blog post
+</div>
+</div>
+
+<div id="main">
+
+<nav>
+  <div class="nav-wrapper">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <a href="https://www.pesuacademy.com/Academy/" class="brand-logo center">PES UNIVERSITY</a>
+    
+  </div>
+</nav>
+
+
+<div class="container1">
+	<font face="Bradley Hand ITC" size="6px"><b>
+		<h3><b>WELCOME TO <br> SPECIAL TOPIC <a href="stu.html" class="button" style="float: right;">Admin Login</a>  <br> REGISTRATION <b></h3>
+		<h5>SEM:IV/VI &nbsp&nbsp&nbsp CREDITS: 2</h5> 
+		<p>The Special Topic is an elective course offered <br> to the students pursuing SEM 4 and SEM 6.<br> 								
+		Its a 2-credit course where in students get <br>exposed to different fields of advancement in <br>technology.      <br>                                                                                                                                                                                      
+		Some of the courses offered are:             
+		<br>  1.Android app development <br>2.Web Frameworks <br> 3.Fine techniques <br> 4.Swarm Computing <br> 5.Secured Programming </p>
+		</b>
+    </font>
+		
+</div>
+
+</div>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav1").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav1").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+</html>

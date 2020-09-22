@@ -1,0 +1,177 @@
+l<html>
+<head>
+<link rel="stylesheet" type="text/css" href="materialize.min.css"  media="screen,projection"/>
+<link rel="stylesheet" type="text/css" href="semantic.min.css">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+Special Topic
+</title>
+</head>
+
+
+
+
+
+<body>
+ <script type="text/javascript" src="materialize.min.js"></script>
+<div id="mySidenav1" class="sidenav1">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="splitscreen_2.html">Register</a>
+  <a href="page2.html">Special Topic</a>
+  <a href="#">Results</a>
+  <a href="#">help</a>
+</div>
+
+<div id="main">
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+<nav>
+  <div class="nav-wrapper">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <a href="https://www.pesuacademy.com/Academy/" class="brand-logo center">PES UNIVERSITY</a>
+    
+  </div>
+</nav>
+<div class="container1">
+
+ <form class="ui form" action="miniproj2.php" method="POST">
+  <h4 class="ui dividing header">Mini Project Registeration</h4>
+  <br>
+  <br>
+   <div class="field">
+    <label>MINI PROJECT</label>
+    <div class="fields">
+      <div class="twelve wide field">
+        <input type="text" name="mp_name2" placeholder="Name" required>
+      </div>
+      
+    </div>
+  </div>
+   <h4 class="ui dividing header" style = "background-color: #F8F9F9">Member 1</h4>
+  <div class="field">
+  
+    <div class="two fields">
+      <div class="field">
+	  
+        <input type="text" name="username21" placeholder="Name" required>
+      </div>
+	 
+      <div class="field">
+        <input type="text" name="usn21" placeholder="USN" required>
+      </div>
+    </div>
+  </div>
+  <div class="field">
+   
+    
+  </div>
+  <div class="two fields">
+    <div class="field">
+      <label>Semester</label>
+      <select name="sem21" type="text" class="ui fluid dropdown">
+        <option value="sem">sem</option>
+    <option value="4">4</option>
+    <option value="6">6</option>
+  
+      </select>
+    </div>
+   
+  </div>
+  <h4 class="ui dividing header"></h4>
+  <div class="field">
+    <label></label>
+    <div class="field">
+    <label>Email</label>
+    <div class="two fields">
+      <div class="field">
+        <input type="email" name="email21" placeholder="email" required>
+      </div>
+	        <div class="field">
+        <input type="text" name="phone21" required placeholder="phone">
+      </div>
+     
+    </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <div>
+  <div >
+  <!-- <form class="ui form" action="insert_1.php" method="POST"> -->
+  <h4 style = "background-color: #F8F9F9" class="ui dividing header">Member 2</h4>
+  <div class="field">
+  
+    <div class="two fields">
+      <div class="field">
+	  
+        <input type="text" name="username22" placeholder="Name" required>
+      </div>
+	 
+      <div class="field">
+        <input type="text" name="usn22" placeholder="USN" required>
+      </div>
+    </div>
+  </div>
+  <div class="field">
+    
+   
+  </div>
+  <div class="two fields">
+    <div class="field">
+      <label>Semester</label>
+      <select name="sem22" type="text" class="ui fluid dropdown">
+        <option value="sem">sem</option>
+    <option value="4">4</option>
+    <option value="6">6</option>
+  
+      </select>
+    </div>
+   
+  </div>
+  <h4 class="ui dividing header"></h4>
+  <div class="field">
+    <label></label>
+    <div class="field">
+    <label>Email</label>
+    <div class="two fields">
+      <div class="field">
+        <input type="email" name="email22" placeholder="email" required>
+      </div>
+	        <div class="field">
+        <input type="text" name="phone22" required placeholder="phone">
+      </div>
+     
+    </div>
+  </div>
+  </div>
+  <table>
+	<tr>
+		<td><input type="submit" value="Submit"></td>
+	</tr>
+  </table>
+<!--  <div type = "submit" value="submit" class="ui button" tabindex="0">Submit</div>-->
+</form>
+</div>
+</div></div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav1").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav1").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+</html>
